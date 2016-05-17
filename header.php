@@ -28,9 +28,14 @@
     
         
     
+<!-- Begin Navigation -->
+<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'div','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>
+<!-- End Navigation -->
+    
+    
     
 <!--Menu Starts here -->    
-  <div id='cssmenu'>
+ <!-- <div id='cssmenu'>
 <ul>
    <li><a href="about.html">About</a></li>
    <li class='active'><a href="about.html">Classes</a>
@@ -52,9 +57,10 @@
    <li><a href="about.html">Blog</a></li>
    <li><a href="about.html">Contact Us</a></li>
 </ul>
-</div><!-- Menue Ends Here -->    
-
+</div>-->
 <!-- Menue Ends Here -->    
+
+
     
 <!-- Slider Starts Here -->
     
